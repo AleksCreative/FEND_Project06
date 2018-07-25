@@ -52,8 +52,13 @@ img {
 		width: 960px;
 		margin: 0 auto;
 		box-shadow: 0px 0px 2px 1px grey;
-
 	}
+
+  .breadcrumbs {
+    width: 960px;
+    
+    margin: 0 auto;
+  }
 }
 
 #footer {
@@ -91,7 +96,6 @@ nav h1 a {
     background-color: #eee;
     font-size: 17px;
     margin: 0;
-    width: calc(50% - 80px);
 }
 
 /* Display list items side by side */
