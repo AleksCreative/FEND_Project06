@@ -172,6 +172,7 @@ nav h1 a {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   margin: 0;
   padding: 30px 15px 60px;
   text-align: center;
@@ -320,10 +321,15 @@ nav h1 a {
 	}
 
   	.filter-options select {
-  		width: 42%;
+  		width: 43%;
   		margin-bottom: 20px;
   	}
   	.filter-options select:last-child {
   		margin-bottom: 10px;
   	}
+
+    #restaurants-list li {
+      width: 43%;
+      align-items: center;
+    }
 }
